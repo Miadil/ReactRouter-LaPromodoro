@@ -6,7 +6,7 @@ import "./Header.css";
 
 function Header() {
   return (
-    <div className="header">
+    <nav className="header">
       <Link to="/">
         <img src={reactLogo} className="logo react" alt="React logo" />
       </Link>
@@ -21,7 +21,7 @@ function Header() {
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 }
 export default Header;
