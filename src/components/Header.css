@@ -1,0 +1,19 @@
+.header {
+  background-color: #213547;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  color: white;
+}
+.head-menu {
+  list-style: none;
+  display: flex;
+}
+.head-menu li {
+  margin: 10px;
+}
+.head-menu a {
+  color: white;
+  text-decoration: none;
+}
